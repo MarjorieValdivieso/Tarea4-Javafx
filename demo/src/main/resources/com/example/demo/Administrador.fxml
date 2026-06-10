@@ -10,8 +10,12 @@
         <Insets bottom="20" left="20" right="20" top="20" />
     </padding>
 
-    <Label text="PANEL DEL ADMINISTRADOR" />
-
-    <Label fx:id="lblBienvenida" text="Bienvenido Administrador" />
+    <Label text="ADMINISTRADOR" />
+   <Label fx:id="lblCodigo" text="Codigo del producto:" />
+   <TextField fx:id="textCodigo" />
+   <Label fx:id="lblNombre" text="Nombre del Producto: " />
+   <TextField fx:id="txtNombre" />
+   <Label fx:id="lblPrecio" text="Precio: " />
+   <TextField fx:id="txtPrecio" />
 
 </VBox>

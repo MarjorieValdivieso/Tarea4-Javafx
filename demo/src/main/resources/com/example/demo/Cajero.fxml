@@ -1,23 +1,23 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
-<?import javafx.geometry.Insets?>
+<?import javafx.geometry.*?>
 <?import javafx.scene.control.*?>
-<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.layout.*?>
 
-<VBox alignment="CENTER"
-      spacing="15"
-      xmlns="http://javafx.com/javafx/17"
-      xmlns:fx="http://javafx.com/fxml/1"
-      fx:controller="com.example.demo.CajeroController">
+<VBox alignment="CENTER" spacing="15" xmlns="http://javafx.com/javafx/17.0.12" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.demo.CajeroController">
 
     <padding>
-        <Insets top="20" right="20" bottom="20" left="20"/>
+        <Insets bottom="20" left="20" right="20" top="20" />
     </padding>
 
-    <Label text="PANEL DEL CAJERO"/>
+    <Label text=" CAJERO" />
 
-    <Label fx:id="lblBienvenida"
-           text="Bienvenido Cajero"/>
+    <Label fx:id="lblVendido" text="Producto vendido: " />
+   <TextField fx:id="txtProducto" />
+   <Label fx:id="lblCantidad" text="Cantidad" />
+   <TextField fx:id="txtCantidad" />
+   <Label fx:id="lblTotal" text="Total" />
+   <TextField fx:id="txtTotal" />
 
 
 
