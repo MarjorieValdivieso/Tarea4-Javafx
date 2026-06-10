@@ -17,5 +17,6 @@
    <TextField fx:id="txtNombre" />
    <Label fx:id="lblPrecio" text="Precio: " />
    <TextField fx:id="txtPrecio" />
+   <Button fx:id="btnCuestionario" mnemonicParsing="false" onAction="#abrirCuestionario" text="Abrir Cuestionario " />
 
 </VBox>
